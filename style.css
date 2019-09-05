@@ -207,7 +207,110 @@ section:last-child {
 	margin-bottom: 3px;
 }
 
+#btn-ctr {
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.button {
+	background-color: #40640B;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	border-radius: 0pt;
+	padding: 8pt;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 10.5pt;
+	width: 20%;
+	margin: 12pt auto;
+		
+}
+
+.button:hover {
+	background-color: #cf8a05;
+}
+
+/*-- contact --*/
 
 
 
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-size: 1.2em;
+	color: #40640B;
+	font-weight: 600;
+}
 
+.myForm_BG {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.myForm_Contain {
+	width: 400px;
+	height: 470px;
+	background-color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+.btn {
+	background-color: #40640B;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	border-radius: 0pt;
+	padding: 10pt;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 10.5pt;
+	width: 40%;
+	margin: 0 auto;
+		
+}
+
+.btn:hover {
+	background-color: #cf8a05;
+}
+
+input {
+	width: 300px;
+	display: block;
+	margin: 15px auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Raleway", sans-serif;
+}
+
+textarea {
+	width: 300px;
+	height: 200px;
+	resize: none;
+	display: block;
+	margin: 15px auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	font-family: "Raleway", sans-serif;
+}
+
+.fold {
+	position: absolute;
+	top: 0;
+	right: 14px;
+	transform: rotate(45deg);
+	font-size: 40px;
+	color: #40640B;
+	cursor: pointer;
+}
