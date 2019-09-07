@@ -33,18 +33,20 @@
 	</div>
 	
 	<div id="mainArea">
-		<!--<section>
+		<section>
 			<div class="sectionTitle">
 				<h2>Career Objective</h2>
 			</div>
 				
 			<div class="sectionContent">
 				<p>
-					
+					I am a technology enthusiast who believes in the adventure of experiences. I believe in growth hence my favorite phrase - Let's Grow.<br>
+					I am good at visionary thinking, putting the pieces of puzzles together to solve a problem. I am good at general computing, creative designs, HTML, currently taking self-paced classes in development. I believe i should be hired because i believe in solving problems.<br>
+					Not just gaining knowledge but using that knowledge to craetivley proffer sustainable solutions to the world.
 				</p>
 			</div>
 			<div class="clear"></div>
-		</section>-->
+		</section>
 		
 		<section>
 				<div class="sectionTitle">
@@ -227,20 +229,20 @@
 </div>
 <div class="myForm_BG">
 	<div class="myForm_Contain">
-		<form name="myForm" action="#" id="myForm" method="POST">
+		<form name="myForm" action="sendmail.php" id="myForm" method="POST">
 		<!--<form name="myForm" action="" id="myForm">-->
 			<div class="fold">+</div>
 			<h3>Your Message Please</h3>
 			<hr>
 			
-			<input id="your-name" type="text" placeholder="Name" required>
+			<input name="name" id="your-name" type="text" placeholder="Name" required>
 			
-			<input id="email" type="email" placeholder="Email" required>
+			<input name="email" id="email" type="email" placeholder="Email" required>
 			
-			<input id="title" type="text" placeholder="Title" required>
+			<input name="title" id="title" type="text" placeholder="Title" required>
 			
 			<textarea name="message" id="message" placeholder="Message" required></textarea>
-			<!--<a href="javascript:%20check_empty()" class="btn">Send Message</a>-->
+			
 			<a href="javascript:%20validField()" class="btn">Send Message</a>
 		</form>
 	</div>
