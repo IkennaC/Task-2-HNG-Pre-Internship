@@ -1,13 +1,12 @@
 <?php
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $subject = $_POST["title"];
+    $title = $_POST["title"];
     $message = $_POST["message"];
-    $formcontent=" From: $name \n Message: $message";
-    $recipient = "iykeoyiih@outlook.com";
-    $mailheader = "From: $email \r\n";
-
-    $file = fopen("Message.txt", "a")
+    $formcontent = "\n From: $name \n Email: $email \n Title: $title \n Message: $message";
+    
+    
+    $file = fopen("Message.txt", "a");
     fwrite($file, $formcontent);
     fclose($file);
 
